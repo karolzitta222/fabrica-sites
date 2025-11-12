@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><div id="formulario">
+    <div class="navbar">
+        <a href="index.html">formulario</a>
+        <a href="inicio.html">inicio</a>
+        <a href="titulos.html">titulos</a>
+        <a href="hino.html">hino</a>
+      </div>
+      <div id="nome">
+   <form action="">
+    <fieldset>
+        <legend>fale conosco</legend>
+        <div id="nome">
+        <label for="nome">nome:</label>
+        <input id="nome" name="nome" type="text">
+    </div>
+
+        <div id="email"><label for="email">email</label>
+        <input id="email" name="email" type="email"></div>
+
+       <div id="assunto"> <label for="assunto">assunto</label>
+        <select name="assunto" id="assunto">
+            <option value="feedback">retorno sobre o projeto</option>
+            <option value="sugest">sugestao para o projeto</option>
+            <option value="new-project">novo projeto</option>
+            <option value="mensagem">uma mensagem</option>
+           
+        </select></div>
+
+      <div id="mensagem"> <label for="mensagem">mensagem</label>
+        <textarea name="mensagem" id="mensagem" cols="82" rows="20"></textarea>
+    </div>
+    </fieldset><div id="botao">
+<button id="botao">
+   enviar
+  </button></div>
+   </form>
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>

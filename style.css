@@ -1,0 +1,72 @@
+body{
+   background-color: rgb(153, 206, 255);
+
+}
+#texto-historia{
+   background-color: rgb(201, 228, 253);
+   border: 2px solid rgb(0, 0, 103);
+   border-radius: 22px;
+    width: 1050px;
+    margin: 0 auto;
+    float: left;
+}
+#img-1 {
+   float: right;         
+   margin-left: 0px ;  
+   display: flex;  
+   position: absolute;
+   right: -15%;
+   top: 15%;
+   width: 400px;
+  height: 320px;
+ }
+#titulo{
+   display: block;
+   text-align: center;
+   color: rgb(0, 0, 52);
+   
+}
+
+.formulario{
+   display: flex;
+
+  
+}
+#nome{
+   width: 300px;
+   margin: 0 auto;
+}
+#email{
+   width: 300px;
+   margin: 0 auto;
+}
+#assunto{  
+    width: 300px;
+   margin: 0 auto;
+}
+#mensagem{
+   width: 300px;
+   margin: 0 auto;
+ 
+
+}
+
+  
+
+#botao {
+   background-color: blue;
+   border:none ;
+   border-radius: 20px;
+   color: white;
+   margin: 0 auto;
+   height: 30px;
+   width: 60px;
+   
+}
+#botao :hover{
+   background-color: blueviolet;
+}
+
+ 
+
+ 
